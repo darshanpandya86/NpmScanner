@@ -1,0 +1,14 @@
+run docker compose up
+
+make api call 
+ http://localhost:3000/api/v1/scan
+ [
+    hostname : [
+        "www.freecodecamp.com",
+        "104.26.10.78" 
+    ]
+]
+
+Or 
+
+go to cmd folder and type go run main.go and use above api call.
